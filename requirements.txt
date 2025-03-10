@@ -2,6 +2,9 @@ flask
 flask-cors
 pillow
 numpy
+face-recognition
 gunicorn
 cmake
-./face_recognition-1.3.0-py2.py3-none-any.whl
+
+# Force face-recognition to use a pre-built dlib wheel
+dlib==19.24.6 --no-binary :all:
