@@ -5,6 +5,4 @@ numpy
 face-recognition
 gunicorn
 cmake
-
-# Force face-recognition to use a pre-built dlib wheel
-dlib==19.24.6 --no-binary :all:
+dlib
