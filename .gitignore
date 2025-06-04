@@ -1,0 +1,5 @@
+uploads/
+.vscode/
+.dockerignore
+docker-compose.yml
+docker-compose.debug.yml
