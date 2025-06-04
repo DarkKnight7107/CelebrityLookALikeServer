@@ -2,7 +2,6 @@ services:
   - type: web
     name: celebrity-look-a-like
     env: docker
+    image: anuragkatkar/facerecognitionserver  # <-- Your Docker Hub image
     plan: free
-    repo: https://github.com/DarkKnight7107/CelebrityLookALikeServer
-    branch: main
-    autoDeploy: true
+    autoDeploy: false  # Only deploy when you push a new image manually
